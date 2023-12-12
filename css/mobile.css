@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: autopx;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+
+  #personal-info {
+    padding-right: 25px;
+  }
+  .cer-content-2 {
+    border-left: 0;
+    border-top: 2px solid #d6c08d;
+    padding-top: 20px;
+  }
+  #footer a:link {
+    margin-right: 5px;
+  }
+  .item-5 {
+    grid-row: auto;
+  }
+  .item-4 {
+    grid-row: auto;
+
+    grid-column: 1/4;
+  }
+  .poj-gird {
+    justify-content: center;
+    grid-template-areas:
+      "header header header  "
+      "mider mider mider "
+      "sibar sibar sibar"
+      "sibermider sibermide sibermide "
+      "timeline timeline timeline";
+  }
+}

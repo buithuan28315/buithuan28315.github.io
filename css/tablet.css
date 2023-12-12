@@ -1,0 +1,67 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 16px;
+    margin-right: 1.5rem;
+    padding-bottom: 20px;
+  }
+
+  #personal-info {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+  #target {
+    font-size: 16px;
+  }
+  #job-info {
+    font-size: 16px;
+  }
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .pj-tille {
+    font-size: 14px;
+  }
+  .pj-border {
+    font-size: 12px;
+    padding: 10px 4px !important;
+  }
+  .pj-border span {
+    margin-right: 5px !important;
+  }
+  td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+  .item-1 {
+    grid-column: 1/4;
+  }
+  .item-2 {
+    grid-column: 1/4;
+  }
+  .item-3 {
+    grid-column: 1/4;
+  }
+  .item-4 {
+    grid-column: 1/4;
+  }
+  .item-5 {
+    grid-column: 1/4;
+    grid-row: auto;
+  }
+
+  .poj-gird {
+    grid-template-areas:
+      "header  "
+      "mider "
+      "sibar "
+      "sibermider "
+      "timeline ";
+  }
+}
